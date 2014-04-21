@@ -1,0 +1,3 @@
+http://www.blogjava.net/tinysun/archive/2009/12/31/307952.html
+http://smilejay.com/2013/03/host-and-network-byte-order/
+http://www.cnblogs.com/JeffreyZhao/archive/2010/02/10/byte-order-and-related-library.html

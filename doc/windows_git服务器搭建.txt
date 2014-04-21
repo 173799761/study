@@ -1,0 +1,5 @@
+http://www.open-open.com/lib/view/1328355596640
+http://blog.csdn.net/ccf0703/article/details/7578276
+http://www.myexception.cn/windows/1393367.html             环境搭建
+http://blog.163.com/clevertanglei900@126/blog/static/11135225920101166432957/    路径设置
+http://www.s6cn.com/archives/266/            windows下各种GIT服务器搭建
