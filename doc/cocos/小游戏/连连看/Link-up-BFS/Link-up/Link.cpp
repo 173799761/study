@@ -9,8 +9,8 @@
 	 YLEN 表示连连看矩形的列数
 	 MAXNUM 表示正无穷
 *********************************************************************/
-#define XLEN 4
-#define YLEN 4 
+#define XLEN 6
+#define YLEN 6 
 #define MAXNUM 10000 
 
 /********************************************************************
@@ -39,7 +39,7 @@ typedef struct Node
 	Node * next;
 };
 
-int Matrix[XLEN][YLEN] = {{1,0,0,1},{1,1,0,1},{1,1,0,1},{1,0,0,1}};
+int Matrix[XLEN][YLEN] = {{1,0,0,0,0,1},{1,1,1,1,0,1},{1,1,0,1,0,1},{1,0,0,1,0,1},{1,0,0,0,0,1},{1,0,0,0,0,1}};
 Point Path[XLEN][YLEN];
 int cost[XLEN][YLEN];
 Node* listPre = NULL;
@@ -425,8 +425,8 @@ int main()
 	Point pointA,pointB;
 	pointA.x=0;
 	pointA.y=0;
-	pointB.x=3;
-	pointB.y=3;
+	pointB.x=5;
+	pointB.y=5;
 
 	if(findWay(pointA,pointB))
 	{   
