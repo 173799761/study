@@ -9,8 +9,8 @@
 	 YLEN 表示连连看矩形的列数
 	 MAXNUM 表示正无穷
 *********************************************************************/
-#define XLEN 6
-#define YLEN 6 
+#define XLEN 4
+#define YLEN 4 
 #define MAXNUM 10000 
 
 /********************************************************************
@@ -39,7 +39,7 @@ typedef struct Node
 	Node * next;
 };
 
-int Matrix[XLEN][YLEN] = {{1,0,0,0,0,1},{1,1,1,1,0,1},{1,1,0,1,0,1},{1,0,0,1,0,1},{1,0,0,0,0,1},{1,0,0,0,0,1}};
+int Matrix[XLEN][YLEN] = {{1,0,0,1},{1,1,0,1},{1,1,0,1},{1,0,0,1}};
 Point Path[XLEN][YLEN];
 int cost[XLEN][YLEN];
 Node* listPre = NULL;
@@ -390,13 +390,13 @@ bool findWay(Point pointA,Point pointB)
 		listPre = ListCur->next;
 		ListCur = ListTail;
 		DeleteFromList();
-		printf("<SL>链表为:");
+		printf("findWay : <SL>链表为:");
 	    for(Node* ptr = SListPre;ptr!=SListTail->next;ptr=ptr->next)
 	    {
 	     printf("<%d,%d> ",ptr->point.x,ptr->point.y);
 	    }
 	    printf("\n");
-		printf("<S>链表为:");
+		printf("findWay : <S>链表为:");
 	    for(Node* ptr = listPre;ptr!=ListTail->next;ptr=ptr->next)
 	    {
 		    printf("<%d,%d> ",ptr->point.x,ptr->point.y);
@@ -425,18 +425,18 @@ int main()
 	Point pointA,pointB;
 	pointA.x=0;
 	pointA.y=0;
-	pointB.x=5;
-	pointB.y=5;
+	pointB.x=3;
+	pointB.y=3;
 
 	if(findWay(pointA,pointB))
 	{   
-		printf("SL链表为:");
+		printf("main : SL链表为:");
 	    for(Node* ptr = SListPre;ptr!=SListTail->next;ptr=ptr->next)
 	    {
 	     printf("<%d,%d> ",ptr->point.x,ptr->point.y);
 	    }
 	    printf("\n");
-		printf("<S>链表为:");
+		printf("main <S>链表为:");
 	    for(Node* ptr = listPre;ptr!=ListTail->next;ptr=ptr->next)
 	    {
 		    printf("<%d,%d> ",ptr->point.x,ptr->point.y);
@@ -458,6 +458,7 @@ int main()
 	{
 		printf("没有这样的路径！");
 	}
+
 
 	system("PAUSE");
 	return 0;
