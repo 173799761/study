@@ -1,0 +1,17 @@
+﻿生成启动时间为 2014/5/12 星期一 17:29:40。
+     1>项目“E:\git_rep\Server_Study\doc\cocos\小游戏\连连看\BFS-cpp\test\test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\test.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Map.cpp
+         Map.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\git_rep\Server_Study\doc\cocos\小游戏\连连看\BFS-cpp\test\Debug\test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\git_rep\Server_Study\doc\cocos\小游戏\连连看\BFS-cpp\test\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\git_rep\Server_Study\doc\cocos\小游戏\连连看\BFS-cpp\test\Debug\test.lib" /MACHINE:X86 Debug\Map.obj
+         Debug\Node.obj
+         Debug\Point.obj
+         Debug\stdafx.obj
+         Debug\test.obj
+         test.vcxproj -> E:\git_rep\Server_Study\doc\cocos\小游戏\连连看\BFS-cpp\test\Debug\test.exe
+     1>已完成生成项目“E:\git_rep\Server_Study\doc\cocos\小游戏\连连看\BFS-cpp\test\test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.93
