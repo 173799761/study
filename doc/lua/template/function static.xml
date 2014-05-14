@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="LuaUniversalTemplateContextType" deleted="false" description="" enabled="true" name="function static">--- ${Desc}&#13;
+-- @return ${type}#${type}&#13;
+function ${module_short_name}.${name}()&#13;
+	${cursor}&#13;
+end</template></templates>

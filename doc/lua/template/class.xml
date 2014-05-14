@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="LuaUniversalTemplateContextType" deleted="false" description="" enabled="true" name="class">------------------------------&#13;
+--@type ${module_short_name}&#13;
+--@extend ${Node}&#13;
+${module_short_name} = class('${module_short_name}', function() &#13;
+     local node = cc.${Node}:create()&#13;
+     return node&#13;
+end)&#13;
+&#13;
+---&#13;
+--@function [parent=#${module_short_name}] new&#13;
+--@return #${module_short_name}&#13;
+------------------------------&#13;
+&#13;
+--- create&#13;
+-- @return #${module_short_name}&#13;
+function ${module_short_name}.create()&#13;
+	local b = ${module_short_name}.new()&#13;
+	b:init()&#13;
+	return b&#13;
+end&#13;
+&#13;
+----- init&#13;
+-- @param #${module_short_name} self&#13;
+function ${module_short_name}:init()&#13;
+	&#13;
+end&#13;
+&#13;
+${cursor}</template></templates>

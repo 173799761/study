@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="LuaUniversalTemplateContextType" deleted="false" description="Function Declaration" enabled="true" id="org.eclipse.koneki.templates.function" name="function">--- ${Desc}
+-- @param #${module_short_name} self
+-- @return ${type}#${type}
+function ${module_short_name}:${name}()
+	${cursor}
+end</template></templates>
